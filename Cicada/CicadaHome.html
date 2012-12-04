@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body onload = "LoadContent();">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		<div id = "Container">
+		    <div class="navbar">
+				<div class="navbar-inner">
+				<a class="brand" href="#">Cicada</a>
+					<ul class="nav">
+					<li id = "HomeListItem"><a href="#" onclick = "GoHome();">Home</a></li>
+					<li><a href="#" onclick = "GoAbout();">About</a></li>
+					<li><a href="#" onclick = "GoDownload();">Download</a></li>
+					<li><a href="#" onclick = "GoHelp();">Help</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id = "About">
+				<p>Hello</p>
+				<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+					<div class="modal fade">
+						<div class="modal-header">
+						<button type="button" class="close"data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h3>Modal header</h3>
+						</div>  
+						<div class="modal-body">
+						<p>One fine body…</p>
+						</div>
+					<div class="modal-footer">
+					<a href="#" class="btn">Close</a>
+					<a href="#" class="btn btn-primary">Save changes</a>
+					</div>
+				</div>
+			</div>
+			
+			<div id = "Download">
+				<div class = "row centered">
+					<div class = "offset5 span4">
+						<h2>Download Cicada</h2>
+						<button href = "#" class = "btn btn-large btn-primary">For Windows</button>
+					</div>
+					<div class = "span3">
+					</div>
+				</div>
+			</div>
+			
+			<div id = "Help">
+				<h3>Frequently Asked Questions</h3>
+				<div class="accordion" id="accordion2">
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+								<strong>In scelerisque sem at dolor</strong>
+							</a>
+						</div>
+						<div id="collapseOne" class="accordion-body collapse in">
+							<div class="accordion-inner">
+								Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+								<strong>Integer nec odio</strong>
+								</a>
+							</div>
+						<div id="collapseTwo" class="accordion-body collapse">
+							<div class="accordion-inner">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>If your question went unanswered, contact me at <a href = "mailto:isaaczinda@seattleacademy.org">isaaczinda@seattleacademy.org</a></p>
+			</div>
+			
+			<div id="Home">
+			<div class="tab-pane active">
+				<div class = "row">
+					<div class = "hero-unit">
+						<h1>Welcome to Cicada</h1>
+						<h4>Cicada is an easy-to use 3d printing software. Learn more about Cicada <a href = "#" onclick = "GoAbout();">here</a></h4>
+						<button href = "#" onclick = "GoDownload();" class = "btn btn-large btn-primary"> 
+						Download Cicada
+						</button>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "span4">
+						<h3>His eros minimum ei</h3>
+						<p>	Pro eu autem cetero, his eros minimum ei. Te per tollit accusam reformidans, vel sensibus adolescens vituperatoribus et, omnium theophrastus ut quo. No eos oporteat atomorum, id quo wisi movet interesset. Cu fugit eirmod regione mel.</p>
+					</div>
+					<div class = "span4">
+						<h3>Alia iusto eleifend ne vix</h3>
+						<p>At assum viris aliquip pro. Alia iusto eleifend ne vix. In has mutat partem phaedrum, mel fugit atqui deleniti ea. Usu no diam inani incorrupte, his ad ridens prodesset, te dicta expetendis vel. Usu et homero maiorum patrioque.</p>
+					</div>
+					<div class = "span4">
+						<h3>Eius interesset ad nam</h3>
+						<p>Eius interesset ad nam. Quod ornatus quo te, in per utamur sapientem imperdiet, vidit appetere singulis vel id. Ne usu commune democritum, dicunt eligendi quaerendum sea cu, enim nemore eam ne. Sed illum causae at, vim te ferri offendit appellantur, doctus feugait omittam sed an. Vis nibh congue laoreet ea, an eam deserunt consulatu suscipiantur.</p>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "span12">
+						
+					</div>
+				</div>
+			</div>
+			</div>
+		
+		
+		
+		</div> <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/CicadaHome.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
